@@ -1,3 +1,4 @@
+set encoding=utf-8
 set fileencodings=cp1251,utf-8,latin1
 colorscheme desert
 syntax on
