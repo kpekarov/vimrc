@@ -3,13 +3,13 @@ colorscheme desert
 syntax on
 set hls
 set is
-set number
+set number                          " Line numbers on left-hand side
 set smartindent
-set tabstop=4
-set shiftwidth=4
-set expandtab
+set tabstop=4                       " Number of spaces a tab represents
+set shiftwidth=4                    " Number of spaces shifted with a shift >>
+set expandtab                       " Use spaces rather than hard tab characters
 set paste
-set backspace=indent,eol,start
+set backspace=indent,eol,start      " Usual backspace behaviour
 
 au FileType crontab,fstab,make set noet ts=8 sw=8
 
