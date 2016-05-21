@@ -12,6 +12,8 @@ set expandtab                       " Use spaces rather than hard tab characters
 set paste
 set backspace=indent,eol,start      " Usual backspace behaviour
 
+set autoread " auto reload file if changed on disk
+
 set colorcolumn=74      " Highlight this column
 
 au FileType crontab,fstab,make set noet ts=8 sw=8
